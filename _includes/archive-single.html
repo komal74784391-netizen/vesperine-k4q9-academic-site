@@ -1,0 +1,7 @@
+<div class="publication-entry">
+  <h3 class="publication-title">{{ post.title }}</h3>
+  <p class="publication-venue">{{ post.venue }}</p>
+  {% if post.codeurl %}
+  <a class="btn btn--code" href="{{ post.codeurl }}" target="_blank" rel="noopener">Code</a>
+  {% endif %}
+</div>

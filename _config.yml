@@ -1,0 +1,8 @@
+title: Vesperine Lab
+description: Research on language systems, retrieval, and efficient inference.
+baseurl: ""
+url: "https://vesperine-lab.example.org"
+markdown: kramdown
+collections:
+  publications:
+    output: true
